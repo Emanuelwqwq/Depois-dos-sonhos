@@ -1,29 +1,30 @@
-# Depois do Sono — 3.0: Outras histórias
+# Depois do Sono — 4.0: Cada sonho, um poder
 
-Jogo nativo para Windows e Android, feito em Godot. Sobreviva a 40 ondas entre um hotel dreamcore e o Aquário do Amanhã, em estética Frutiger Aero.
+Survivor nativo em Godot, para Windows e Android. Campanha de 40 ondas, dreamcore e Frutiger Aero.
 
-## Baixar
+## Downloads
 
-- [Windows — EXE](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/download/v3.0.0/DepoisDoSono-v3.0.exe)
-- [Android — APK](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/download/v3.0.0/DepoisDoSono-v3.0.apk)
+- [Windows — EXE 4.0](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/download/v4.0.0/DepoisDoSono-v4.0.exe)
+- [Android — APK 4.0](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/download/v4.0.0/DepoisDoSono-v4.0.apk)
+- [Projeto para preparar exportação iOS](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/download/v4.0.0/Projeto-iOS-v4.0.zip) — não é IPA, não instala no iPhone. Inclui fonte, instruções e processo para Mac remoto; ainda depende de assinatura Apple e validação em aparelho.
 - [Todas as versões](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases)
 
-Windows: execute o EXE; os dados do jogo estão incorporados. Android: ARM64, Android 7 ou posterior, em paisagem. O APK é assinado para testes; foi validado por ferramentas, mas ainda não em aparelho físico.
+## Novidades
 
-## Novidades da 3.0
+Alcance próprio nas 17 armas; bumerangue retorna no limite. Pausa com inventário completo, níveis, alcances e power-ups paginados. Comprar uma arma nova com quatro espaços ocupados pergunta qual substituir; cancelar não gasta cacos.
 
-- Boutique com oito seções e 32 skins completas: quatro exclusivas para cada bichinho, equipadas e salvas separadamente.
-- Homenagens a Re:Zero, Saw, Chainsaw Man, Pokémon (Vaporeon e Gengar), JoJo, DDLC, Cult of the Lamb, The Coffin of Andy and Leyley, Cuphead, Dostoiévski, folclore brasileiro e a skin Arrogante do Noé.
-- Sete armas e seis power-ups novos: agora 17 armas e 20 power-ups. Inclui mão invisível, serra, motosserra, pérola da maré, esfera de sombra, Stand, tiros de porcelana e itens com efeitos próprios.
-- Rastros, impactos, cortes e efeitos espectrais com limites de partículas/desenho.
-- Reembolso em lembranças das antigas roupas compartilhadas, preservando o progresso.
-
-687 verificações funcionais e 139 visuais passaram. Não há compras com dinheiro real. Personagens de outras obras aparecem como homenagens de fã.
+Oito habilidades de classe e 32 habilidades das skins, com descrições antes de jogar. Ímãs derrubados pelos inimigos atraem os cacos. Hitbox menor e uniforme entre roupas; proteção da esquiva cobre todo o movimento. Tela cheia no PC e modo imersivo no Android, preservando a proporção da imagem.
 
 ## Controles
 
-WASD/setas: mover. Ataques automáticos. Espaço: esquivar. E: habilidade. Esc: pausa. No celular, joystick e botões na tela.
+- PC: WASD/setas ou clique esquerdo para mover. Segure/arraste o clique para atualizar o destino. Clique direito/Espaço esquiva; botão central/E ativa habilidade. F11 alterna tela cheia.
+- Controle: analógico/direcional move; A/RB esquiva; X/LB habilidade; Y pacto; Start pausa; B volta/cancela; A confirma nos menus.
+- Celular: joystick e botões, com suporte simultâneo a dois dedos. Controle externo usa o mesmo mapeamento, se reconhecido pelo sistema.
 
-## Créditos técnicos
+## Validação e plataformas
 
-Godot 4.6 / GDScript. Figurinos e ícones criados com ImageGen. Trilhas originais do projeto. Os avisos de licença do runtime Godot acompanham a release.
+792 verificações funcionais e 139 visuais passaram (931 no total). EXE exportado iniciado; APK ARM64 Android 7+ com assinatura local de testes e alinhamento verificados. Entradas de controle verificadas por simulação; ainda sem testes com controle físico ou aparelhos Android/iPhone.
+
+A exportação iOS requer macOS/Xcode, que pode ser remoto. O pacote inclui um workflow manual, mas não foi compilado para iPhone. Uma instalação/distribuição real requer certificado e provisionamento Apple.
+
+Godot 4.6 / GDScript, sprites criados com ImageGen e trilhas originais. As referências das skins são homenagens de fã. Licenças do runtime e hashes acompanham as releases.
