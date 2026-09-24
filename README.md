@@ -1,3 +1,15 @@
+## Prévia 5 — Hotel dos Sonhos
+
+[Baixar PC (.exe)](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/download/v5.0.0-preview.1/DepoisDoSono-v5.0-preview.exe) · [Baixar Android (.apk)](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/download/v5.0.0-preview.1/DepoisDoSono-v5.0-preview.apk)
+
+Ímã por 8 segundos, dificuldade adaptativa, evolução revisada e interface do Hotel dos Sonhos. Abra a **Sala de ensaio** para avaliar a animação da Íris e do Sonâmbulo antes da expansão para os demais personagens e skins.
+
+[Vídeo da demonstração](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/download/v5.0.0-preview.1/Animacoes-v5.mp4) · [Notas, projeto e avaliação de multiplayer](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/tag/v5.0.0-preview.1)
+
+Esta é uma prévia. Multiplayer ainda não implementado. A versão estável continua disponível abaixo.
+
+---
+
 # Depois do Sono — 4.0: Cada sonho, um poder
 
 Survivor nativo em Godot, para Windows e Android. Campanha de 40 ondas, dreamcore e Frutiger Aero.
