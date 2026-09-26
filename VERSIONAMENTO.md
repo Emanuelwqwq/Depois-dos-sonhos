@@ -1,9 +1,11 @@
-# Numeração das versões
+# Versionamento
 
-A versão atual é **0.6**. A pedido do autor, as próximas atualizações públicas seguem **0.7, 0.8, 0.9, 1.0, 1.1**, sempre em incrementos de **0.1**.
+Versão atual: **0.7**. Próximas atualizações: **0.8, 0.9, 1.0, 1.1**, em incrementos de 0.1.
 
-Manter a versão coerente em `project.godot`, nomes de exportação, `export_presets.cfg`, `Jogar.cmd`, `tools/package_release.py`, README e tag do GitHub (`v0.6` atualmente).
+Manter a versão coerente em project.godot, export_presets.cfg, Jogar.cmd, scripts de empacotamento, README e tag do GitHub.
 
-O contador interno de instalação Android é independente e deve sempre aumentar, mesmo quando o nome público muda. A versão 0.6 usa `versionCode=12`, preservando a possibilidade de atualizar o APK anterior, de nome 6.1.0-preview.1 e código 11. Preservar o identificador do pacote e a chave de assinatura.
+Android 0.7 usa versionCode=13 (0.6 usava 12). O pacote com.depoisdosono.game e a chave local foram preservados. iOS preparado com versão 0.7/build 13, ainda sem instalador validado.
 
-As releases antigas ficam como histórico. A versão pública 0.6 substitui a nomenclatura anterior; não corresponde a uma reversão do jogo ou dos saves.
+Protocolo multiplayer 7: os dois participantes precisam atualizar juntos. Compras e skins usam as mesmas chaves de save. A chave 2:2 agora representa Kira; a quinta roupa usa uma chave nova para cada personagem.
+
+Releases antigas permanecem como histórico. A nomenclatura 6.1.0-preview.1 foi substituída por 0.6 sem reversão dos saves.
