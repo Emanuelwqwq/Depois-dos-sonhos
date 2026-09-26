@@ -1,42 +1,18 @@
-## Prévia 5 — Hotel dos Sonhos
+# Depois do Sono
 
-[Baixar PC (.exe)](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/download/v5.0.0-preview.1/DepoisDoSono-v5.0-preview.exe) · [Baixar Android (.apk)](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/download/v5.0.0-preview.1/DepoisDoSono-v5.0-preview.apk)
+Survivor nativo em Godot para Windows e Android: Hotel dos Sonhos nas ondas 1–20 e Aquário do Amanhã nas ondas 21–40.
 
-Ímã por 8 segundos, dificuldade adaptativa, evolução revisada e interface do Hotel dos Sonhos. Abra a **Sala de ensaio** para avaliar a animação da Íris e do Sonâmbulo antes da expansão para os demais personagens e skins.
+## Prévia 6 — multiplayer e animações
 
-[Vídeo da demonstração](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/download/v5.0.0-preview.1/Animacoes-v5.mp4) · [Notas, projeto e avaliação de multiplayer](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/tag/v5.0.0-preview.1)
+[Baixar para Windows](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/download/v6.0.0-preview.1/DepoisDoSono-v6.0-preview.exe) • [Baixar para Android](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/download/v6.0.0-preview.1/DepoisDoSono-v6.0-preview.apk) • [Todos os arquivos e código-fonte](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/tag/v6.0.0-preview.1)
 
-Esta é uma prévia. Multiplayer ainda não implementado. A versão estável continua disponível abaixo.
+- Campanha cooperativa e arena PVP para dois, no mesmo PC ou por rede direta.
+- Descoberta de salas na mesma rede Wi-Fi, sem servidor contratado. Não há relay ou convite automático pela internet; fora da rede local, o endereço do anfitrião precisa estar acessível.
+- Animações mais lentas para oito protagonistas, 32 roupas e 28 criaturas; novos efeitos ilustrados e trilhas para armas.
+- 3.856 verificações automatizadas aprovadas, além dos testes com dois processos de rede.
 
----
+[Como jogar em dupla](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/download/v6.0.0-preview.1/MULTIPLAYER.md) • [Resultados e limitações](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/download/v6.0.0-preview.1/VALIDACAO-v6.md)
 
-# Depois do Sono — 4.0: Cada sonho, um poder
+Esta é uma prévia: ainda requer testes em Android, controles físicos e dois aparelhos na rede. As novas animações usam três quartos e espelhamento lateral; apenas Íris original possui vistas adicionais de frente/costas. Ainda não há instalador de iPhone.
 
-Survivor nativo em Godot, para Windows e Android. Campanha de 40 ondas, dreamcore e Frutiger Aero.
-
-## Downloads
-
-- [Windows — EXE 4.0](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/download/v4.0.0/DepoisDoSono-v4.0.exe)
-- [Android — APK 4.0](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/download/v4.0.0/DepoisDoSono-v4.0.apk)
-- [Projeto para preparar exportação iOS](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/download/v4.0.0/Projeto-iOS-v4.0.zip) — não é IPA, não instala no iPhone. Inclui fonte, instruções e processo para Mac remoto; ainda depende de assinatura Apple e validação em aparelho.
-- [Todas as versões](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases)
-
-## Novidades
-
-Alcance próprio nas 17 armas; bumerangue retorna no limite. Pausa com inventário completo, níveis, alcances e power-ups paginados. Comprar uma arma nova com quatro espaços ocupados pergunta qual substituir; cancelar não gasta cacos.
-
-Oito habilidades de classe e 32 habilidades das skins, com descrições antes de jogar. Ímãs derrubados pelos inimigos atraem os cacos. Hitbox menor e uniforme entre roupas; proteção da esquiva cobre todo o movimento. Tela cheia no PC e modo imersivo no Android, preservando a proporção da imagem.
-
-## Controles
-
-- PC: WASD/setas ou clique esquerdo para mover. Segure/arraste o clique para atualizar o destino. Clique direito/Espaço esquiva; botão central/E ativa habilidade. F11 alterna tela cheia.
-- Controle: analógico/direcional move; A/RB esquiva; X/LB habilidade; Y pacto; Start pausa; B volta/cancela; A confirma nos menus.
-- Celular: joystick e botões, com suporte simultâneo a dois dedos. Controle externo usa o mesmo mapeamento, se reconhecido pelo sistema.
-
-## Validação e plataformas
-
-792 verificações funcionais e 139 visuais passaram (931 no total). EXE exportado iniciado; APK ARM64 Android 7+ com assinatura local de testes e alinhamento verificados. Entradas de controle verificadas por simulação; ainda sem testes com controle físico ou aparelhos Android/iPhone.
-
-A exportação iOS requer macOS/Xcode, que pode ser remoto. O pacote inclui um workflow manual, mas não foi compilado para iPhone. Uma instalação/distribuição real requer certificado e provisionamento Apple.
-
-Godot 4.6 / GDScript, sprites criados com ImageGen e trilhas originais. As referências das skins são homenagens de fã. Licenças do runtime e hashes acompanham as releases.
+A [versão estável 4.0](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/tag/v4.0.0) continua disponível. O projeto completo da prévia está no ZIP da release, pronto para abrir no Godot 4.6.
