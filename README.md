@@ -1,22 +1,25 @@
-# Depois do Sono — versão 0.6
+# Depois do Sono — versão 0.7
 
-Survivor nativo em Godot 4.6/GDScript para Windows e Android. Dreamcore nas ondas 1–20, Frutiger Aero nas ondas 21–40, oito protagonistas, 32 roupas com habilidades de campanha, 17 armas e 20 power-ups.
+Survivor nativo em Godot 4.6/GDScript para Windows e Android. Dreamcore nas ondas 1–20, Frutiger Aero nas ondas 21–40, oito protagonistas, 40 roupas com habilidades de campanha, 17 armas e 20 power-ups.
 
-[Downloads da versão 0.6](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/tag/v0.6) • [Guia multiplayer](MULTIPLAYER.md) • [Validação](art/VALIDACAO-v0.6.md)
+[Downloads da versão 0.7](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/tag/v0.7) • [Guia multiplayer](MULTIPLAYER.md) • [Validação](art/VALIDACAO-v0.7.md)
 
-Numeração atual: **0.6**, com próximas atualizações em **0.7, 0.8, 0.9, 1.0**. A versão 0.6 preserva o conteúdo mais recente anteriormente chamado 6.1.0-preview.1. Veja [versionamento](VERSIONAMENTO.md).
+Numeração atual: **0.7**, com próximas atualizações em **0.8, 0.9, 1.0**. Veja [versionamento](VERSIONAMENTO.md).
 
 ## Novidades
 
 - Cooperativo para dois e arena PVP, no mesmo PC ou por rede direta. Descoberta de salas na mesma rede Wi-Fi, sem contratar servidor. Fora da rede local não há relay nem conexão automática por convite.
-- Animações de repouso, movimento, esquiva/habilidade, dano e derrota para os oito protagonistas e todas as 32 roupas. Inimigos e chefes das duas regiões têm movimento, preparação, ataque, dano e morte.
+- Animações de repouso, movimento, esquiva/habilidade, dano e derrota para os oito protagonistas e todas as 40 roupas. Inimigos e chefes das duas regiões têm movimento, preparação, ataque, dano e morte.
 - Reprodução mais lenta: caminhada a 7 quadros por segundo, repouso a 3. A velocidade visual não aumenta o tempo de invencibilidade. Hitboxes continuam independentes da arte.
 - Trilhas curvas, partículas e quatro sequências ilustradas de efeitos para armas. Limites de efeitos, descarte fora da câmera e carregamento de folhas sob demanda.
-- Frente e costas para repouso e caminhada dos oito protagonistas e 31 das 32 roupas. A roupa Gengar da Lua aguarda geração das novas vistas: o ImageGen recusou esse recurso e a animação anterior foi preservada. A Sala de Ensaio permite conferir cada direção disponível. Esquiva, habilidade, dano e derrota preservam suas poses de perfil em três quartos.
+- Frente e costas para repouso e caminhada dos oito protagonistas e todas as 40 roupas. A Sala de Ensaio permite conferir cada direção. Esquiva, habilidade, dano e derrota preservam poses de perfil em três quartos.
+- Uma quinta roupa por personagem: Coraline, Pequeno Príncipe, Felix/Ferris, Leon, Marceline, Armadilha de Urso Reversa, Puck e Wirt, cada uma com habilidade de campanha própria.
+- Yoshikage Kira substitui a segunda roupa da Lua, preservando a compra existente. Nilo usa uma armadilha de metal industrial escuro; Puck tem pelagem cinza-clara, peito branco e olhos azul-esverdeados.
+- Novos retratos na loja, recortes de animação revisados e efeitos específicos das habilidades. Para jogar em rede, ambos precisam desta versão (protocolo 7).
 
 ## Jogar
 
-PC: abra `Jogar.cmd` ou `build/DepoisDoSono-v0.6.exe`. Os recursos estão incorporados ao executável. Android: instale o APK da release, em paisagem. O pacote Android continua sendo uma compilação de teste assinada com a chave local existente. Não há IPA para iPhone; veja [preparação iOS](IOS.md).
+PC: abra `Jogar.cmd` ou `build/DepoisDoSono-v0.7.exe`. Os recursos estão incorporados ao executável. Android: instale o APK da release, em paisagem. O pacote Android continua sendo uma compilação de teste assinada com a chave local existente. Não há IPA para iPhone; veja [preparação iOS](IOS.md).
 
 | Ação | Teclado/mouse | Controle | Android |
 |---|---|---|---|
