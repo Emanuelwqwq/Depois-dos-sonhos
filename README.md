@@ -1,25 +1,34 @@
-# Depois do Sono — versão 0.7
+# Depois do Sono — versão 0.8
 
 Survivor nativo em Godot 4.6/GDScript para Windows e Android. Dreamcore nas ondas 1–20, Frutiger Aero nas ondas 21–40, oito protagonistas, 40 roupas com habilidades de campanha, 17 armas e 20 power-ups.
 
-[Downloads da versão 0.7](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/tag/v0.7) • [Guia multiplayer](MULTIPLAYER.md) • [Validação](art/VALIDACAO-v0.7.md)
+[Downloads da versão 0.8](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/tag/v0.8) • [Guia multiplayer](MULTIPLAYER.md) • [Validação](art/VALIDACAO-v0.8.md)
 
-Numeração atual: **0.7**, com próximas atualizações em **0.8, 0.9, 1.0**. Veja [versionamento](VERSIONAMENTO.md).
+Numeração atual: **0.8**, com próximas atualizações em **0.9, 1.0, 1.1**. Veja [versionamento](VERSIONAMENTO.md).
 
-## Novidades
+## Revisão 0.8
+
+- Repouso e caminhada com apoio nos pés e tamanho consistente nos quadros, em todas as 48 aparências. Zona morta de movimento e direção visual mais estável.
+- Aviso de vida abaixo de 25%: texto, barra destacada, borda suave e som espaçado.
+- Cacos restantes vêm até os jogadores antes de abrir a loja, com crédito de dinheiro e experiência sem duplicação.
+- Projéteis e avisos de ataque herdam a paleta do inimigo; habilidades usam cores das roupas.
+- Fundo do menu animado; removidos o cartão de check-in, o atalho da Sala de Ensaio e o botão de tela cheia das configurações. F11 continua funcionando.
+- Seis retratos de loja em alta definição. **Leon, Marceline e Wirt ainda aguardam o ImageGen**, que atingiu o limite durante esta revisão.
+
+## Conteúdo
 
 - Cooperativo para dois e arena PVP, no mesmo PC ou por rede direta. Descoberta de salas na mesma rede Wi-Fi, sem contratar servidor. Fora da rede local não há relay nem conexão automática por convite.
 - Animações de repouso, movimento, esquiva/habilidade, dano e derrota para os oito protagonistas e todas as 40 roupas. Inimigos e chefes das duas regiões têm movimento, preparação, ataque, dano e morte.
 - Reprodução mais lenta: caminhada a 7 quadros por segundo, repouso a 3. A velocidade visual não aumenta o tempo de invencibilidade. Hitboxes continuam independentes da arte.
 - Trilhas curvas, partículas e quatro sequências ilustradas de efeitos para armas. Limites de efeitos, descarte fora da câmera e carregamento de folhas sob demanda.
-- Frente e costas para repouso e caminhada dos oito protagonistas e todas as 40 roupas. A Sala de Ensaio permite conferir cada direção. Esquiva, habilidade, dano e derrota preservam poses de perfil em três quartos.
+- Frente e costas para repouso e caminhada dos oito protagonistas e todas as 40 roupas. Esquiva, habilidade, dano e derrota preservam poses de perfil em três quartos.
 - Uma quinta roupa por personagem: Coraline, Pequeno Príncipe, Felix/Ferris, Leon, Marceline, Armadilha de Urso Reversa, Puck e Wirt, cada uma com habilidade de campanha própria.
 - Yoshikage Kira substitui a segunda roupa da Lua, preservando a compra existente. Nilo usa uma armadilha de metal industrial escuro; Puck tem pelagem cinza-clara, peito branco e olhos azul-esverdeados.
-- Novos retratos na loja, recortes de animação revisados e efeitos específicos das habilidades. Para jogar em rede, ambos precisam desta versão (protocolo 7).
+- Novos retratos na loja, recortes de animação revisados e efeitos específicos das habilidades. Para jogar em rede, ambos precisam desta versão (protocolo 8).
 
 ## Jogar
 
-PC: abra `Jogar.cmd` ou `build/DepoisDoSono-v0.7.exe`. Os recursos estão incorporados ao executável. Android: instale o APK da release, em paisagem. O pacote Android continua sendo uma compilação de teste assinada com a chave local existente. Não há IPA para iPhone; veja [preparação iOS](IOS.md).
+PC: abra `Jogar.cmd` ou `build/DepoisDoSono-v0.8.exe`. Os recursos estão incorporados ao executável. Android: instale o APK da release, em paisagem. O pacote Android continua sendo uma compilação de teste assinada com a chave local existente. Não há IPA para iPhone; veja [preparação iOS](IOS.md).
 
 | Ação | Teclado/mouse | Controle | Android |
 |---|---|---|---|
