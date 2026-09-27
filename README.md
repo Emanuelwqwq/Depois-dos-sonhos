@@ -1,19 +1,20 @@
-# Depois do Sono — versão 0.8
+# Depois do Sono — versão 0.9
 
 Survivor nativo em Godot 4.6/GDScript para Windows e Android. Dreamcore nas ondas 1–20, Frutiger Aero nas ondas 21–40, oito protagonistas, 40 roupas com habilidades de campanha, 17 armas e 20 power-ups.
 
-[Downloads da versão 0.8](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/tag/v0.8) • [Guia multiplayer](MULTIPLAYER.md) • [Validação](art/VALIDACAO-v0.8.md)
+[Downloads da versão 0.9](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/tag/v0.9) • [Guia multiplayer](MULTIPLAYER.md) • [Validação](art/VALIDACAO-v0.9.md)
 
-Numeração atual: **0.8**, com próximas atualizações em **0.9, 1.0, 1.1**. Veja [versionamento](VERSIONAMENTO.md).
+Numeração atual: **0.9**, com próximas atualizações em **1.0, 1.1, 1.2**. Veja [versionamento](VERSIONAMENTO.md).
 
-## Revisão 0.8
+## Revisão 0.9
 
-- Repouso e caminhada com apoio nos pés e tamanho consistente nos quadros, em todas as 48 aparências. Zona morta de movimento e direção visual mais estável.
-- Aviso de vida abaixo de 25%: texto, barra destacada, borda suave e som espaçado.
-- Cacos restantes vêm até os jogadores antes de abrir a loja, com crédito de dinheiro e experiência sem duplicação.
-- Projéteis e avisos de ataque herdam a paleta do inimigo; habilidades usam cores das roupas.
-- Fundo do menu animado; removidos o cartão de check-in, o atalho da Sala de Ensaio e o botão de tela cheia das configurações. F11 continua funcionando.
-- Seis retratos de loja em alta definição. **Leon, Marceline e Wirt ainda aguardam o ImageGen**, que atingiu o limite durante esta revisão.
+- HUD compacto: vida e experiência agrupadas, armas menores, controles reduzidos no PC e áreas de toque preservadas no Android.
+- Identidade do Hotel dos Sonhos com luas, cores noturnas, creme e detalhes discretos. Acabamento compartilhado em menus, loja, guarda-roupa, pausa e resultados.
+- Aviso de perigo em 35% e crítico em 20%: barra junto ao personagem, símbolo, batimento exclusivo e bordas suaves. Sem placa grande sobre o personagem.
+- Margens de recuperação em 40%/25% evitam alternância constante do aviso. Pausa suspende o feedback, morte encerra os sinais.
+- Configurações separadas para som de perigo, bordas e movimento reduzido. O indicador local é desenhado acima dos efeitos de combate.
+- Loja mantém preços e substituição explícita; comparação de alcance na troca de arma. Compras, progresso e skins preservados.
+- Esta revisão não gera novas skins. Os retratos ampliados de Leon, Marceline e Wirt continuam pendentes da revisão anterior.
 
 ## Conteúdo
 
@@ -28,7 +29,7 @@ Numeração atual: **0.8**, com próximas atualizações em **0.9, 1.0, 1.1**. V
 
 ## Jogar
 
-PC: abra `Jogar.cmd` ou `build/DepoisDoSono-v0.8.exe`. Os recursos estão incorporados ao executável. Android: instale o APK da release, em paisagem. O pacote Android continua sendo uma compilação de teste assinada com a chave local existente. Não há IPA para iPhone; veja [preparação iOS](IOS.md).
+PC: abra `Jogar.cmd` ou `build/DepoisDoSono-v0.9.exe`. Os recursos estão incorporados ao executável. Android: instale o APK da release, em paisagem. O pacote Android continua sendo uma compilação de teste assinada com a chave local existente. Não há IPA para iPhone; veja [preparação iOS](IOS.md).
 
 | Ação | Teclado/mouse | Controle | Android |
 |---|---|---|---|
