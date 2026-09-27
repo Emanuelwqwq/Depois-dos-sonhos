@@ -1,35 +1,36 @@
-# Depois do Sono — versão 0.9
+# Depois do Sono — versão 1.0
 
-Survivor nativo em Godot 4.6/GDScript para Windows e Android. Dreamcore nas ondas 1–20, Frutiger Aero nas ondas 21–40, oito protagonistas, 40 roupas com habilidades de campanha, 17 armas e 20 power-ups.
+Survivor nativo em Godot 4.6/GDScript para Windows e Android. Dreamcore nas ondas 1–20, Frutiger Aero nas ondas 21–40, oito protagonistas, 40 roupas com habilidades de campanha, 17 armas e 23 power-ups.
 
-[Downloads da versão 0.9](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/tag/v0.9) • [Guia multiplayer](MULTIPLAYER.md) • [Validação](art/VALIDACAO-v0.9.md)
+[Downloads da versão 1.0](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/tag/v1.0) • [Guia multiplayer](MULTIPLAYER.md) • [Validação](art/VALIDACAO-v1.0.md)
 
-Numeração atual: **0.9**, com próximas atualizações em **1.0, 1.1, 1.2**. Veja [versionamento](VERSIONAMENTO.md).
+Numeração atual: **1.0**, com próximas atualizações em **1.1, 1.2, 1.3**. Veja [versionamento](VERSIONAMENTO.md).
 
-## Revisão 0.9
+## Revisão 1.0
 
-- HUD compacto: vida e experiência agrupadas, armas menores, controles reduzidos no PC e áreas de toque preservadas no Android.
-- Identidade do Hotel dos Sonhos com luas, cores noturnas, creme e detalhes discretos. Acabamento compartilhado em menus, loja, guarda-roupa, pausa e resultados.
-- Aviso de perigo em 35% e crítico em 20%: barra junto ao personagem, símbolo, batimento exclusivo e bordas suaves. Sem placa grande sobre o personagem.
-- Margens de recuperação em 40%/25% evitam alternância constante do aviso. Pausa suspende o feedback, morte encerra os sinais.
-- Configurações separadas para som de perigo, bordas e movimento reduzido. O indicador local é desenhado acima dos efeitos de combate.
-- Loja mantém preços e substituição explícita; comparação de alcance na troca de arma. Compras, progresso e skins preservados.
-- Esta revisão não gera novas skins. Os retratos ampliados de Leon, Marceline e Wirt continuam pendentes da revisão anterior.
+- Ressonâncias de campanha: Subaru + Mão Invisível, Vaporeon da Íris + Pulso da maré, Denji + Cordinha de partida e Gengar + Riso de sombra. A loja e o guarda-roupa explicam os bônus. Não se aplicam ao PVP.
+- Quatro combinações de equipamentos: Arco + Espelho, Sino + Gelo, Luz + Sombra e Margarida + Chá. Três ícones exclusivos criados com ImageGen.
+- Nível 5 oferece Cadência desperta (30% mais frequência, 15% menos dano por golpe) ou Eco do quarto (explosão de 50% a cada três ataques). O preço é igual nas duas opções e escolher uma encerra a outra.
+- Portas opcionais nas ondas terminadas em 3: proteger uma lembrança, alcançar uma mariposa mensageira e encontrar três luzes. Prazo e recompensa aparecem antes de aceitar. Sucesso rende até 40 XP e 8 de vida, sem dinheiro extra; falhar não bloqueia a onda. Pactos anteriores permanecem nas ondas terminadas em 2.
+- Mãe das Mariposas e Baleia do Horizonte têm ciclos de preparação, ataque e recuperação. Leques com aberturas no jardim, anel com centro seguro no Aero e janela de +20% de dano recebido na recuperação.
+- Transições de movimento ancoradas nos pés, caminhada ligada à distância, cores de impacto coerentes e efeitos limitados fora da câmera. Folhas de animação existentes preservadas.
+- Compras e skins existentes preservadas. Android versionCode 16; rede exige versão 1.0 nos dois participantes (protocolo 10).
+- Testes físicos Android/controle e redes externas continuam pendentes. Não há versão instalável para iPhone. Retratos ampliados de Leon, Marceline e Wirt continuam fora desta revisão.
 
 ## Conteúdo
 
 - Cooperativo para dois e arena PVP, no mesmo PC ou por rede direta. Descoberta de salas na mesma rede Wi-Fi, sem contratar servidor. Fora da rede local não há relay nem conexão automática por convite.
 - Animações de repouso, movimento, esquiva/habilidade, dano e derrota para os oito protagonistas e todas as 40 roupas. Inimigos e chefes das duas regiões têm movimento, preparação, ataque, dano e morte.
-- Reprodução mais lenta: caminhada a 7 quadros por segundo, repouso a 3. A velocidade visual não aumenta o tempo de invencibilidade. Hitboxes continuam independentes da arte.
+- Caminhada acompanha a distância percorrida; repouso a 3 quadros por segundo, com transição breve entre as duas poses. A velocidade visual não aumenta o tempo de invencibilidade. Hitboxes continuam independentes da arte.
 - Trilhas curvas, partículas e quatro sequências ilustradas de efeitos para armas. Limites de efeitos, descarte fora da câmera e carregamento de folhas sob demanda.
 - Frente e costas para repouso e caminhada dos oito protagonistas e todas as 40 roupas. Esquiva, habilidade, dano e derrota preservam poses de perfil em três quartos.
 - Uma quinta roupa por personagem: Coraline, Pequeno Príncipe, Felix/Ferris, Leon, Marceline, Armadilha de Urso Reversa, Puck e Wirt, cada uma com habilidade de campanha própria.
 - Yoshikage Kira substitui a segunda roupa da Lua, preservando a compra existente. Nilo usa uma armadilha de metal industrial escuro; Puck tem pelagem cinza-clara, peito branco e olhos azul-esverdeados.
-- Novos retratos na loja, recortes de animação revisados e efeitos específicos das habilidades. Para jogar em rede, ambos precisam desta versão (protocolo 8).
+- Novos retratos na loja, recortes de animação revisados e efeitos específicos das habilidades. Para jogar em rede, ambos precisam desta versão (protocolo 10).
 
 ## Jogar
 
-PC: abra `Jogar.cmd` ou `build/DepoisDoSono-v0.9.exe`. Os recursos estão incorporados ao executável. Android: instale o APK da release, em paisagem. O pacote Android continua sendo uma compilação de teste assinada com a chave local existente. Não há IPA para iPhone; veja [preparação iOS](IOS.md).
+PC: abra `Jogar.cmd` ou `build/DepoisDoSono-v1.0.exe`. Os recursos estão incorporados ao executável. Android: instale o APK da release, em paisagem. O pacote Android continua sendo uma compilação de teste assinada com a chave local existente. Não há IPA para iPhone; veja [preparação iOS](IOS.md).
 
 | Ação | Teclado/mouse | Controle | Android |
 |---|---|---|---|
