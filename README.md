@@ -1,3 +1,9 @@
+# Atualização 1.1 — revisão de animações
+
+[PC (.exe)](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/download/v1.1/DepoisDoSono-v1.1.exe) · [Android (.apk)](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/download/v1.1/DepoisDoSono-v1.1.apk)
+
+Corrigidos recortes, derrotas fora de ordem e reprodução de ataques. [Cobertura e pendências](art/REVISAO-ANIMACOES-v1.1.md). As notas da versão anterior estão abaixo.
+
 # Depois do Sono — versão 1.0
 
 Survivor nativo em Godot 4.6/GDScript para Windows e Android. Dreamcore nas ondas 1–20, Frutiger Aero nas ondas 21–40, oito protagonistas, 40 roupas com habilidades de campanha, 17 armas e 23 power-ups.
