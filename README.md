@@ -1,3 +1,9 @@
+# Atualização 1.2 — jardim entre mundos
+
+[PC (.exe)](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/download/v1.2/DepoisDoSono-v1.2.exe) · [Android (.apk)](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/download/v1.2/DepoisDoSono-v1.2.apk)
+
+Novas texturas, espaços mais abertos, portas e escadas surreais, névoa e água animadas, impactos mais definidos. [Mudanças e limites](art/DIRECAO-VISUAL-v1.2.md).
+
 # Atualização 1.1 — revisão de animações
 
 [PC (.exe)](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/download/v1.1/DepoisDoSono-v1.1.exe) · [Android (.apk)](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/download/v1.1/DepoisDoSono-v1.1.apk)
@@ -10,7 +16,7 @@ Survivor nativo em Godot 4.6/GDScript para Windows e Android. Dreamcore nas onda
 
 [Downloads da versão 1.0](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/tag/v1.0) • [Guia multiplayer](MULTIPLAYER.md) • [Validação](art/VALIDACAO-v1.0.md)
 
-Numeração atual: **1.0**, com próximas atualizações em **1.1, 1.2, 1.3**. Veja [versionamento](VERSIONAMENTO.md).
+Numeração atual: **1.2**, com próximas atualizações em **1.3, 1.4, 1.5**. Veja [versionamento](VERSIONAMENTO.md).
 
 ## Revisão 1.0
 
