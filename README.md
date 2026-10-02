@@ -1,3 +1,9 @@
+# Atualização 1.4 — gestos de cada hóspede
+
+[PC (.exe)](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/download/v1.4/DepoisDoSono-v1.4.exe) · [Android (.apk)](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/download/v1.4/DepoisDoSono-v1.4.apk)
+
+Esquiva, habilidade, dano e derrota de frente/costas para os oito protagonistas e suas 40 roupas. Ritmos próprios de repouso/caminhada, três ataques Aero refeitos sem cortes e correção das animações do segundo jogador. [Mudanças e validação](art/ANIMACOES-v1.4.md).
+
 # Atualização 1.3 — duas regiões, duas atmosferas
 
 [PC (.exe)](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/download/v1.3/DepoisDoSono-v1.3.exe) · [Android (.apk)](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/download/v1.3/DepoisDoSono-v1.3.apk)
@@ -22,7 +28,7 @@ Survivor nativo em Godot 4.6/GDScript para Windows e Android. Dreamcore nas onda
 
 [Downloads da versão 1.0](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/tag/v1.0) • [Guia multiplayer](MULTIPLAYER.md) • [Validação](art/VALIDACAO-v1.0.md)
 
-Numeração atual: **1.3**, com próximas atualizações em **1.4, 1.5, 1.6**. Veja [versionamento](VERSIONAMENTO.md).
+Numeração atual: **1.4**, com próximas atualizações em **1.5, 1.6, 1.7**. Veja [versionamento](VERSIONAMENTO.md).
 
 ## Revisão 1.0
 
