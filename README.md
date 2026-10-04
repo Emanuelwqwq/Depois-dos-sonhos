@@ -1,3 +1,31 @@
+# Depois do Sono — versão atual 1.6
+
+## Baixar e jogar
+
+**[Baixar para PC (.exe)](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/download/v1.6/DepoisDoSono-v1.6.exe)** · **[Baixar para Android (.apk)](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/download/v1.6/DepoisDoSono-v1.6.apk)**
+
+[Todos os arquivos da versão 1.6](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/tag/v1.6) · [Projeto completo (.zip)](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/download/v1.6/Projeto-v1.6.zip) · [Mudanças e validação](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/download/v1.6/ENTREGA-v1.6.md)
+
+A **1.6 — Portas e destinos** é a versão atual para baixar. Está publicada como **pré-lançamento**, por isso o destaque automático “Latest” do GitHub pode apontar para uma versão antiga. Use os links acima.
+
+### O que chegou
+
+- Evoluções funcionais das 17 armas e bumerangue que se divide no retorno.
+- Três rotas entre ondas, objetivos opcionais, portas surreais e criaturas rivais.
+- Oito epílogos e conquistas que liberam roupas existentes e decoração.
+- Inclui as melhorias de animações, arte e encontros da versão 1.5.
+
+No jogo, abra **Meu quarto • conquistas** para acompanhar os desbloqueios. Para multiplayer, os dois participantes precisam da **1.6** (protocolo 12).
+
+PC: execute o `.exe`. Android: instale o `.apk`; a assinatura de testes anterior foi preservada. Testes em celular físico e rede externa continuam pendentes. Não há instalador para iPhone nesta entrega.
+
+O código completo e os recursos estão no **Projeto-v1.6.zip** da release; esta página principal mantém a documentação e os links de download.
+
+[Versionamento](VERSIONAMENTO.md) · [Guia multiplayer](MULTIPLAYER.md)
+
+<details>
+<summary>Histórico e documentação das versões anteriores</summary>
+
 # Atualização 1.4 — gestos de cada hóspede
 
 [PC (.exe)](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/download/v1.4/DepoisDoSono-v1.4.exe) · [Android (.apk)](https://github.com/Emanuelwqwq/Depois-dos-sonhos/releases/download/v1.4/DepoisDoSono-v1.4.apk)
@@ -81,3 +109,5 @@ Compras permanentes, roupas e histórico antigo são preservados. Recordes do eq
 Abra `project.godot` no Godot 4.6. `build-windows.ps1` roda as suítes e exporta Windows; `build-android.ps1` exporta e verifica assinatura e alinhamento do APK. Ferramentas locais ficam em `.tools`, fora do pacote de código-fonte. Testes de rede usam duas instâncias e estão em `tests/network6.gd` e `tests/network_menus6.gd`.
 
 A prévia exige testes em Android e controles físicos. As verificações automatizadas de rede ocorrem no mesmo computador, não em uma rede móvel real. Não há suporte validado a iPhone sem ambiente Apple e assinatura.
+
+</details>
